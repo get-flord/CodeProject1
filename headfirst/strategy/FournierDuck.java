@@ -1,7 +1,13 @@
 package headfirst.strategy;
 
-/**
- * Created by cFournierg on 2/10/17.
- */
-public class FournierDuck {
+public class FournierDuck extends Duck {
+    public FournierDuck() {
+        quackBehavior = new FournierQuack();
+        flyBehavior = new FlyNoWay();
+    }
+
+    public void display() {
+        System.out.println("I'm a FournierDuck. I'm no duck at all.");
+    }
+
 }

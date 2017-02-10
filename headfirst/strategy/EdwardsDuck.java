@@ -9,6 +9,6 @@ public class EdwardsDuck {
         //flyBehavior = new FlyWithWings();
     }
     public void display() {
-        System.out.println("卫生纸");}
+        System.out.println("I'm a real Edwards duck");}
 
 }
